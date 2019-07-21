@@ -1,6 +1,8 @@
+#' @importFrom  rstudioapi insertText
+#' @importFrom clipr write_clip
 #' @export
 
-add_me <- function() {
+add_me <- function(is_paste = FALSE) {
   text <- glue::glue(
 '
 Authors@R:
@@ -10,6 +12,11 @@ Authors@R:
            email = "alex.lijiaxiang@foxmail.com",
            comment = c(ORCID = "https://orcid.org/0000-0003-3196-6492"))'
   )
-  text %>% glue::glue_collapse("\n") %>%
-      rstudioapi::insertText()
+  text_one_line <- text %>% glue::glue_collapse("\n")
+  if (is_paste) {
+    text_one_line %>%
+      clipr::write_clip()
+  } else {
+    text_one_line
+  }
 }

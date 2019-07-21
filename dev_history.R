@@ -11,3 +11,7 @@ use_build_ignore("dev_history.R")
 use_roxygen_md()
 use_pipe()
 library(magrittr)
+
+document()
+# load_all()
+install()

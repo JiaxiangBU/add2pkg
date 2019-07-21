@@ -1,0 +1,47 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# add2pkg
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of add2pkg is to create some snippets to develop R packages.
+
+## Installation
+
+You can install the released version of add2pkg from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("add2pkg")
+```
+
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("JiaxiangBU/add2pkg")
+```
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(add2pkg)
+## basic example code
+```
+
+```{r}
+add_me(is_paste = FALSE)
+```
