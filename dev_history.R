@@ -21,3 +21,8 @@ use_mit_license()
 
 use_news_md()
 use_version()
+
+# make public
+use_github_release()
+# publish release
+# https://zenodo.org/account/settings/github/
