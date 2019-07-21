@@ -1,0 +1,4 @@
+Name: Author Me
+Description: Add author metadata in the DESC
+Binding: add_me
+Interactive: false
