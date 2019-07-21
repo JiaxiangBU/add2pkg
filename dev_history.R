@@ -20,3 +20,4 @@ options(usethis.full_name = "Jiaxiang Li")
 use_mit_license()
 
 use_news_md()
+use_version()
