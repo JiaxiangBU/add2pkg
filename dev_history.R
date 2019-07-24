@@ -15,6 +15,8 @@ library(magrittr)
 document()
 # load_all()
 install()
+rmarkdown::render("README.Rmd")
+file.remove("README.html")
 
 options(usethis.full_name = "Jiaxiang Li")
 use_mit_license()

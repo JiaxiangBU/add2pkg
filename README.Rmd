@@ -45,3 +45,7 @@ library(add2pkg)
 ```{r}
 add_me(is_paste = FALSE)
 ```
+
+```{r}
+add_zenodo_citation(readme_path = here::here("../pyks/README.Rmd"))
+```
