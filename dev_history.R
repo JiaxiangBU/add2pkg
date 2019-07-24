@@ -24,6 +24,7 @@ use_mit_license()
 use_news_md()
 use_version()
 
+# git push
 # make public
 use_github_release()
 # publish release
