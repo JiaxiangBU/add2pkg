@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![DOI](https://zenodo.org/badge/198092416.svg)](https://zenodo.org/badge/latestdoi/198092416)
 <!-- badges: end -->
 
 The goal of add2pkg is to create some snippets to develop R packages.
