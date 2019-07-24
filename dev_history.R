@@ -26,3 +26,11 @@ use_version()
 use_github_release()
 # publish release
 # https://zenodo.org/account/settings/github/
+
+
+# add zenodo citation -----------------------------------------------------
+
+library(devtools)
+use_r("add_zenodo_citation")
+load_all()
+add_zenodo_citation(here::here("../pyks/README.Rmd"))

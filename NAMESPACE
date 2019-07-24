@@ -2,6 +2,7 @@
 
 export("%>%")
 export(add_me)
+export(add_zenodo_citation)
 importFrom(clipr,write_clip)
 importFrom(magrittr,"%>%")
 importFrom(rstudioapi,insertText)
