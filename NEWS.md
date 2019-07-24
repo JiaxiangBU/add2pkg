@@ -1,3 +1,5 @@
+# add2pkg 0.2.0
+
 * Added the function `add_zenodo_citation`.
 
 # add2pkg 0.1.0
