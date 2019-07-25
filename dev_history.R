@@ -15,6 +15,7 @@ library(magrittr)
 document()
 # load_all()
 install()
+library(add2pkg)
 rmarkdown::render("README.Rmd")
 file.remove("README.html")
 
@@ -37,3 +38,10 @@ library(devtools)
 use_r("add_zenodo_citation")
 load_all()
 add_zenodo_citation(here::here("../pyks/README.Rmd"))
+
+
+# add disclaimer ----------------------------------------------------------
+
+use_r("add_disclaimer")
+use_code_of_conduct()
+

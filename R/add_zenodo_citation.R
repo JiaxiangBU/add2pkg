@@ -1,5 +1,8 @@
 #' @importFrom rvest html_nodes html_attr html_text
 #' @importFrom xml2 read_html
+#'
+proj_name <- function() usethis::proj_path() %>% basename()
+#'
 #' @export
 add_zenodo_citation <-
     function(readme_path = here::here("../pyks/README.Rmd")) {
@@ -30,10 +33,9 @@ add_zenodo_citation <-
             yaml::read_yaml(text = .) %>%
             .[[1]]
         # comements
-        proj_name <- usethis::proj_path() %>% basename()
         comment_text <-
             glue::glue(
-                "If you use {proj_name}, I would be very grateful if you can add a citation in your published work. By citing {proj_name}, beyond acknowledging the work, you contribute to make it more visible and guarantee its growing and sustainability. For citation, please use the BibTex or the citation content."
+                "If you use {proj_name()}, I would be very grateful if you can add a citation in your published work. By citing {proj_name()}, beyond acknowledging the work, you contribute to make it more visible and guarantee its growing and sustainability. For citation, please use the BibTex or the citation content."
             )
         # https://github.com/eblondel/zen4R/wiki
 

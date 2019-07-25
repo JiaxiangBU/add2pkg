@@ -48,5 +48,13 @@ add_me(is_paste = FALSE)
 ```
 
 ```{r}
-add_zenodo_citation(readme_path = here::here("../pyks/README.Rmd"))
+# add_zenodo_citation(readme_path = here::here("../pyks/README.Rmd"))
 ```
+
+```{r}
+add_disclaimer()
+```
+
+***
+
+`r add_disclaimer()`
