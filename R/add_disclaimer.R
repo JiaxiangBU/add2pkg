@@ -1,5 +1,5 @@
 #' @export
-add_disclaimer <- function(glue) {
+add_disclaimer <- function(name = "Jiaxiang Li") {
     disclaimer_text <-
         glue::glue(
             '<h4 align="center">**Code of Conduct**</h4>
@@ -8,7 +8,7 @@ add_disclaimer <- function(glue) {
 
   <h4 align="center">**License**</h4>
 
-  <h6 align="center">MIT &copy; [Jiaxiang Li](LICENSE.md)</h6>'
+  <h6 align="center">MIT &copy; [{name}](LICENSE.md)</h6>'
         )
     return(disclaimer_text)
 }
