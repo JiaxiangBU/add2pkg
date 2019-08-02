@@ -17,7 +17,7 @@ add_zenodo_citation <-
         doi_url <-
             readme_content %>% str_match("https://zenodo.org/badge/latestdoi/\\d+")
         html <-
-            xml2::read_html("https://zenodo.org/badge/latestdoi/197245838")
+            xml2::read_html(doi_url)
         record_id <-
             html %>% rvest::html_text() %>% str_match("zenodo.(\\d+)") %>% .[1, 2]
         record_url <-
