@@ -45,3 +45,8 @@ add_zenodo_citation(here::here("../pyks/README.Rmd"))
 use_r("add_disclaimer")
 use_code_of_conduct()
 
+
+# add utils ---------------------------------------------------------------
+
+library(devtools)
+use_r("utils")
