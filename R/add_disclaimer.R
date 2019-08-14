@@ -2,7 +2,7 @@
 add_disclaimer <-
   function(name = "Jiaxiang Li",
            license_name = FALSE) {
-    if (license_name = -FALSE) {
+    if (license_name == FALSE) {
       license_name <- which_license()
     }
     disclaimer_text <-
