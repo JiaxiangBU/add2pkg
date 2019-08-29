@@ -4,3 +4,5 @@ which_license <- function() {
       stringr::str_remove("\\s\\+\\sfile\\sLICENSE") %>%
       stringr::str_remove("License:\\s")
 }
+
+proj_name <- function() usethis::proj_path() %>% basename()

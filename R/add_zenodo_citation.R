@@ -51,4 +51,4 @@ add_zenodo_citation <-
         return(list(BibTex = bibtex_text, Cite = cite_text, Comments = comment_text))
     }
 
-proj_name <- function() usethis::proj_path() %>% basename()
+

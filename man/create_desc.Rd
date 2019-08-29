@@ -4,7 +4,7 @@
 \alias{create_desc}
 \title{Create descripton for R project}
 \usage{
-create_desc()
+create_desc(set_name = TRUE)
 }
 \description{
 Create descripton for R project
