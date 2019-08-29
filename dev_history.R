@@ -13,7 +13,9 @@ use_pipe()
 library(magrittr)
 
 document()
-# load_all()
+load_all()
+
+document()
 install()
 library(add2pkg)
 rmarkdown::render("README.Rmd")
@@ -50,3 +52,8 @@ use_code_of_conduct()
 
 library(devtools)
 use_r("utils")
+
+
+# coding ------------------------------------------------------------------
+
+use_r("create_desc")

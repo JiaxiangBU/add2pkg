@@ -1,7 +1,7 @@
+#' Add Zenodo Citation
+#'
 #' @importFrom rvest html_nodes html_attr html_text
 #' @importFrom xml2 read_html
-#'
-proj_name <- function() usethis::proj_path() %>% basename()
 #'
 #' @export
 add_zenodo_citation <-
@@ -50,3 +50,5 @@ add_zenodo_citation <-
         cat(cite_text)
         return(list(BibTex = bibtex_text, Cite = cite_text, Comments = comment_text))
     }
+
+proj_name <- function() usethis::proj_path() %>% basename()
