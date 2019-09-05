@@ -5,4 +5,7 @@ which_license <- function() {
       stringr::str_remove("License:\\s")
 }
 
+#' Get current project name.
+#'
+#' @export
 proj_name <- function() usethis::proj_path() %>% basename()
