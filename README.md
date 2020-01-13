@@ -58,7 +58,7 @@ add_disclaimer()
 #> 
 #> <h4 align="center">**License**</h4>
 #> 
-#> <h6 align="center">MIT &copy; [Jiaxiang Li](LICENSE.md)</h6>
+#> <h6 align="center">MIT &copy; Jiaxiang Li</h6>
 ```
 
 -----
@@ -85,6 +85,6 @@ project, you agree to abide by its terms.
 
 <h6 align="center">
 
-MIT © [Jiaxiang Li](LICENSE.md)
+MIT © Jiaxiang Li
 
 </h6>

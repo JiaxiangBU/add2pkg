@@ -18,7 +18,7 @@ add_disclaimer <-
 
   <h4 align="center">**License**</h4>
 
-  <h6 align="center">{license_name} &copy; [{name}](LICENSE.md)</h6>'
+  <h6 align="center">{license_name} &copy; {name}</h6>'
       )
     return(disclaimer_text)
   }
