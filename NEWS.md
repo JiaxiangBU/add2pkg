@@ -1,3 +1,5 @@
+# add2pkg 0.2.1
+
 * ignore `README.Rmd` to build, update imported packages, add function and params definitions, add global variables.
 * update dev history.
 * make `proj_name` exported.
