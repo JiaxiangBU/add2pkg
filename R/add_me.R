@@ -1,5 +1,7 @@
+#' Add Author Infomation into DESCRIPTION
 #' @importFrom  rstudioapi insertText
 #' @importFrom clipr write_clip
+#' @param is_paste Logical. By default, \code{FALSE}
 #' @export
 
 add_me <- function(is_paste = FALSE) {

@@ -6,6 +6,9 @@
 \usage{
 create_desc(set_name = TRUE)
 }
+\arguments{
+\item{set_name}{Logical. By default, \code{TRUE}}
+}
 \description{
 Create descripton for R project
 }

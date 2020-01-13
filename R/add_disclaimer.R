@@ -1,3 +1,8 @@
+#' Add disclaimer
+#'
+#' @import glue
+#' @param name Author full name.
+#' @param license_name License name.
 #' @export
 add_disclaimer <-
   function(name = "Jiaxiang Li",

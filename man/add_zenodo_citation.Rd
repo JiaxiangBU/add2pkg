@@ -6,6 +6,9 @@
 \usage{
 add_zenodo_citation(readme_path = here::here("../pyks/README.Rmd"))
 }
+\arguments{
+\item{readme_path}{here::here object}
+}
 \description{
 Add Zenodo Citation
 }

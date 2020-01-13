@@ -51,7 +51,7 @@ add_me(is_paste = FALSE)
 
 ``` r
 add_disclaimer()
-#> ✔ Setting active project to '/Users/vija/Downloads/work/add2pkg'
+#> <U+2714> Setting active project to 'D:/work/add2pkg'
 #> <h4 align="center">**Code of Conduct**</h4>
 #> 
 #> <h6 align="center">Please note that the `add2pkg` project is released with a [Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md).<br>By contributing to this project, you agree to abide by its terms.</h6>

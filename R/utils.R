@@ -1,3 +1,9 @@
+globalVariables('.')
+
+#' @import here
+#' @import readr
+#' @import stringr
+#' @import yaml
 which_license <- function() {
   readr::read_lines(here::here("DESCRIPTION")) %>%
       stringr::str_subset("^License") %>%
@@ -9,3 +15,5 @@ which_license <- function() {
 #'
 #' @export
 proj_name <- function() usethis::proj_path() %>% basename()
+
+
