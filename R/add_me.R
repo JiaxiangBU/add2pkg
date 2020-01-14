@@ -3,7 +3,7 @@
 #' @importFrom clipr write_clip
 #' @param is_paste Logical. By default, \code{FALSE}
 #' @export
-#' @example add_me()
+#' @example \dontrun{add_me()}
 add_me <- function(is_paste = FALSE) {
   text <- glue::glue(
 '
