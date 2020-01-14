@@ -4,12 +4,15 @@
 \alias{add_disclaimer}
 \title{Add disclaimer}
 \usage{
-add_disclaimer(name = "Jiaxiang Li", license_name = FALSE)
+add_disclaimer(name = "Jiaxiang Li", license_name = FALSE,
+  github_id = "JiaxiangBU")
 }
 \arguments{
 \item{name}{Author full name.}
 
 \item{license_name}{License name.}
+
+\item{github_id}{Author GitHub Id.}
 }
 \description{
 Add disclaimer

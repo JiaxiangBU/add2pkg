@@ -7,6 +7,5 @@
 
 0 errors | 0 warnings | 0 note
 
-* This is a new release.
-* Fix invalid file URLS.
-* Add test and vignette.
+* Add `CODE_OF_CONDUCT.md` valid URL in `README.md`.
+* Update DESCRIPTION field.
