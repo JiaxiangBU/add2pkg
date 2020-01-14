@@ -1,4 +1,4 @@
-#' Add Zenodo Citation
+#' Add the Zenodo citation
 #'
 #' @importFrom rvest html_nodes html_attr html_text
 #' @importFrom xml2 read_html

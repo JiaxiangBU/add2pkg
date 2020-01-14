@@ -2,7 +2,7 @@
 % Please edit documentation in R/create_desc.R
 \name{create_desc}
 \alias{create_desc}
-\title{Create descripton for R project}
+\title{Create the description file for R project}
 \usage{
 create_desc(set_name = TRUE)
 }
@@ -10,5 +10,5 @@ create_desc(set_name = TRUE)
 \item{set_name}{Logical. By default, \code{TRUE}}
 }
 \description{
-Create descripton for R project
+Create the description file for R project
 }

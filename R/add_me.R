@@ -1,4 +1,4 @@
-#' Add Author Infomation into DESCRIPTION
+#' Add Author Information into DESCRIPTION
 #' @importFrom  rstudioapi insertText
 #' @importFrom clipr write_clip
 #' @param is_paste Logical. By default, \code{FALSE}

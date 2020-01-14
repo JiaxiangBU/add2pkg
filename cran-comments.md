@@ -7,5 +7,4 @@
 
 0 errors | 0 warnings | 0 note
 
-* Add `CODE_OF_CONDUCT.md` valid URL in `README.md`.
-* Update DESCRIPTION field.
+* fix mis-spelling

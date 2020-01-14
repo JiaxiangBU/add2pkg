@@ -2,7 +2,7 @@
 % Please edit documentation in R/add_zenodo_citation.R
 \name{add_zenodo_citation}
 \alias{add_zenodo_citation}
-\title{Add Zenodo Citation}
+\title{Add the Zenodo citation}
 \usage{
 add_zenodo_citation(readme_path = here::here("../pyks/README.Rmd"))
 }
@@ -10,5 +10,5 @@ add_zenodo_citation(readme_path = here::here("../pyks/README.Rmd"))
 \item{readme_path}{here::here object}
 }
 \description{
-Add Zenodo Citation
+Add the Zenodo citation
 }

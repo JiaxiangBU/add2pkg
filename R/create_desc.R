@@ -1,4 +1,4 @@
-#' Create descripton for R project
+#' Create the description file for R project
 #'
 #' @importFrom usethis use_description_defaults
 #' @importFrom glue glue

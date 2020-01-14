@@ -9,7 +9,7 @@
 * give options for `license_name`
 * add the function `which_license` and put it into the function `add_disclaimer`.
 * Merge branch 'master' of https://gitee.com/jiaxiangli/add2pkg
-* add2pkg citation print friendly asis BibTex
+* add2pkg citation print friendly BibTex in `asis` style
 * add coc, add the function `add_disclaimer`
 * Add comment content for function
 * Increment version number * Merge branch 'master' of https://github.com/JiaxiangBU/add2pkg

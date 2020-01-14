@@ -2,7 +2,7 @@
 % Please edit documentation in R/add_me.R
 \name{add_me}
 \alias{add_me}
-\title{Add Author Infomation into DESCRIPTION}
+\title{Add Author Information into DESCRIPTION}
 \usage{
 add_me(is_paste = FALSE)
 }
@@ -10,5 +10,5 @@ add_me(is_paste = FALSE)
 \item{is_paste}{Logical. By default, \code{FALSE}}
 }
 \description{
-Add Author Infomation into DESCRIPTION
+Add Author Information into DESCRIPTION
 }
