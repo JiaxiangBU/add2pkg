@@ -8,7 +8,7 @@ Authors@R:
            email = "alex.lijiaxiang@foxmail.com",
            comment = c(ORCID = "https://orcid.org/0000-0003-3196-6492"))
 Description: Provide some helper functions for R package development,
-    including disclaimer, author information, the Zenodo citation template.
+    including disclaimer, author information, the citation template.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -29,5 +29,7 @@ Imports:
 Suggests: 
     testthat (>= 2.1.0),
     knitr,
-    rmarkdown
+    rmarkdown,
+    spelling
 VignetteBuilder: knitr
+Language: en-US
