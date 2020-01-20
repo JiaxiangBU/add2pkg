@@ -25,7 +25,8 @@ Imports:
     here,
     readr,
     stringr,
-    yaml
+    yaml,
+    purrr
 Suggests: 
     testthat (>= 2.1.0),
     knitr,
