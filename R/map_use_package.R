@@ -7,6 +7,10 @@
 #'
 #' @importFrom purrr walk
 #' @importFrom usethis use_package
+#' @param input The list of package names.
+#' @export
+#' @examples
+#' \dontrun{map_use_package(c('dplyr', 'glue', 'purrr', 'stringr'))}
 map_use_package <- function(input) {
   input %>%
       purrr::walk(usethis::use_package)
