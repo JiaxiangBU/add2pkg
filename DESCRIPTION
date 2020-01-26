@@ -1,5 +1,5 @@
 Package: add2pkg
-Title: Add to R Package
+Title: A Assistant Package for Package Development in R
 Version: 0.2.1
 Authors@R: 
     person(given = "Jiaxiang",

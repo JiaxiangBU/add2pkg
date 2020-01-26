@@ -4,10 +4,17 @@
 \alias{add_zenodo_citation}
 \title{Add the Zenodo citation}
 \usage{
-add_zenodo_citation(readme_path = here::here("../pyks/README.Rmd"))
+add_zenodo_citation(readme_path = here::here("../pyks/README.Rmd"),
+  verbose = TRUE)
 }
 \arguments{
 \item{readme_path}{here::here object}
+
+\item{verbose}{Logical, by default \code{TRUE}}
+}
+\value{
+The text contains bibtex text with the arguement \code{BibTex},
+citation text with the argument \code{Cite}, comment text with the argument \code{Comments}.
 }
 \description{
 Add the Zenodo citation

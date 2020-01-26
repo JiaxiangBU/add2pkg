@@ -9,6 +9,14 @@ add_me(is_paste = FALSE)
 \arguments{
 \item{is_paste}{Logical. By default, \code{FALSE}}
 }
+\value{
+If \code{is_paste = TRUE}, then the output is pasted on the clipboard.
+If \code{is_paste = FALSE}, then the output contains the author information in the
+DESCRIPTION.
+}
 \description{
 Add Author Information into DESCRIPTION
+}
+\examples{
+\dontrun{add_me()}
 }

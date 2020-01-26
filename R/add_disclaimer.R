@@ -3,7 +3,8 @@
 #' @import glue
 #' @param name Author full name.
 #' @param license_name License name.
-#' @param github_id Author GitHub Id.
+#' @param github_id Author GitHub Id
+#' @return The text contains the disclaimer with author name and license name.
 #' @export
 add_disclaimer <-
   function(name = "Jiaxiang Li",

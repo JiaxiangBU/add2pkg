@@ -9,6 +9,9 @@ create_desc(set_name = TRUE)
 \arguments{
 \item{set_name}{Logical. By default, \code{TRUE}}
 }
+\value{
+None
+}
 \description{
 Create the description file for R project
 }

@@ -3,6 +3,7 @@
 #' @importFrom usethis use_description_defaults
 #' @importFrom glue glue
 #' @param set_name Logical. By default, \code{TRUE}
+#' @return None
 #'
 #' @export
 create_desc <- function(set_name = TRUE) {
