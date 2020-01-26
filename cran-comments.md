@@ -5,6 +5,9 @@
 
 ## R CMD check results
 
-0 errors | 0 warnings | 0 note
+0 errors | 0 warnings | 4 note
 
-* fix mis-spelling
+* Update the year of the LICENSE.
+* Change the title.
+* Add return arguements into the functions.
+* Add the `verbose` arguement to optionally suppress the information messages.

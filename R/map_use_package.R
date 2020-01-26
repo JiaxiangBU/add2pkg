@@ -8,6 +8,7 @@
 #' @importFrom purrr walk
 #' @importFrom usethis use_package
 #' @param input The list of package names.
+#' @return None
 #' @export
 #' @examples
 #' \dontrun{map_use_package(c('dplyr', 'glue', 'purrr', 'stringr'))}

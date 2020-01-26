@@ -12,7 +12,10 @@ add_disclaimer(name = "Jiaxiang Li", license_name = FALSE,
 
 \item{license_name}{License name.}
 
-\item{github_id}{Author GitHub Id.}
+\item{github_id}{Author GitHub Id}
+}
+\value{
+The text contains the disclaimer with author name and license name.
 }
 \description{
 Add disclaimer

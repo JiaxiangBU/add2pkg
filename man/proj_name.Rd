@@ -6,6 +6,9 @@
 \usage{
 proj_name()
 }
+\value{
+the project or package name
+}
 \description{
 Get current project name.
 }

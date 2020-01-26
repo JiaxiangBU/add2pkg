@@ -3,10 +3,13 @@
 #' @importFrom rvest html_nodes html_attr html_text
 #' @importFrom xml2 read_html
 #' @param readme_path here::here object
+#' @param verbose Logical, by default \code{TRUE}
+#' @return The text contains bibtex text with the arguement \code{BibTex},
+#' citation text with the argument \code{Cite}, comment text with the argument \code{Comments}.
 #'
 #' @export
 add_zenodo_citation <-
-    function(readme_path = here::here("../pyks/README.Rmd")) {
+    function(readme_path = here::here("../pyks/README.Rmd"), verbose = TRUE) {
         # file.edit(readme_path)
         readme_content <- readr::read_file(readme_path)
         # library(tidyverse)
@@ -40,15 +43,17 @@ add_zenodo_citation <-
             )
         # https://github.com/eblondel/zen4R/wiki
 
-        cat(comment_text)
-        cat("\n")
-        cat("\n")
-        cat("```BibTex")
-        cat(bibtex_text)
-        cat("```")
-        cat("\n")
-        cat("\n")
-        cat(cite_text)
+        if (verbose == TRUE) {
+            cat(comment_text)
+            cat("\n")
+            cat("\n")
+            cat("```BibTex")
+            cat(bibtex_text)
+            cat("```")
+            cat("\n")
+            cat("\n")
+            cat(cite_text)
+        }
         return(list(BibTex = bibtex_text, Cite = cite_text, Comments = comment_text))
     }
 

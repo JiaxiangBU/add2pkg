@@ -2,8 +2,11 @@
 #' @importFrom  rstudioapi insertText
 #' @importFrom clipr write_clip
 #' @param is_paste Logical. By default, \code{FALSE}
+#' @return If \code{is_paste = TRUE}, then the output is pasted on the clipboard.
+#' If \code{is_paste = FALSE}, then the output contains the author information in the
+#' DESCRIPTION.
 #' @export
-#' @example \dontrun{add_me()}
+#' @examples \dontrun{add_me()}
 add_me <- function(is_paste = FALSE) {
   text <- glue::glue(
 '
